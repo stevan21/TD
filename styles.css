@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ header{
+    height: 120vh;
+    background-image:url("image/FOND.jfif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo img{
+    position: relative;
+    left: 34px;
+}
+header nav ul{
+    position: relative;
+    bottom: 98px;
+    text-align: right;
+    list-style: none;
+    padding: 21px;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.con h4{
+    position: relative;
+    BOTTOM: 74PX;
+    left: -86PX;
+    TEXT-ALIGN: LEFT;
+    height: 200px;
+    font-size: 6em;
+    line-height: 5rem;
+    margin: 137px;
+    color: #fff;
+}
+section {
+    min-height: 100vh;
+    padding: 0rem 4% 13rem;
+}
+.container p{
+    POSITION: RELATIVE;
+    BOTTOM: 154PX;
+    padding: 9px;
+    max-width: 378px;
+    margin: 0rem 56px;
+    font-size: 1rem;
+    color: #e1dada;
+}
+.btn {
+    position: relative;
+    bottom: 55px;
+    TOP: -160px;
+    MARGIN: 64PX;
+    padding: 9PX;
+    HEIGHT: 40PX;
+    WIDTH: 130px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: #FFF;
+    background-color: #8B2CF5;
+    cursor: pointer;
+}
+.text h1{
+    text-align: center;
+    margin: 2rem 4px;
+
+}
+.table{
+    border: solid, #e1dada;
+    align-items: center;
+    
+}
+.text p{
+    text-align: center;
+    padding: 37px;
+}
+.carte {
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    
+   
+}
+.carte h1{
+    text-align: center;
+}
+.carte P{
+    text-align: center;
+    padding: 18px;
+  
+}.carte img{
+    position: relative;
+    left: 100px;
+}
+.parti_tre{
+    margin: -10rem 13px;
+    line-height: 2rem;
+    background-color: #ebe2e2;
+    display: flex;
+    
+}
+.parti_tre p{
+    display: flex;
+}
+
+.parti_tre img{
+    position: relative;
+    width: 80%;
+}
+.services_two {
+    position: relative;
+    left: 10%;
+    
+}
+.btns {
+    position: relative;
+    HEIGHT: 34PX;
+    WIDTH: 119px;
+    padding: 9px;
+    margin: 10px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: #FFF;
+    background-color: #8B2CF5;
+    cursor: pointer;    
+}
+.parti_tre li{
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.parti_tre li::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #8B2CF5;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.services_two{
+    position: relative;
+    left: 21px;
+}
+.info{
+    text-align: center;
+    line-height: 2rem;
+    justify-content: center;
+}
+.info img{
+    position: relative;
+    left: 560PX;
+    display: flex;
+    height: 143px;
+    width: 12%;
+    border-radius: 121px;
+}
+.star img {
+    position: relative;
+    left: 490px;
+    width:34px;
+}
+footer{
+    position: sticky;
+    top: 89PX;
+  
+    display: flex;
+    align-content: center;
+    background-color: rgb(229, 221, 210);
+    text-align: center;
+   
+}
+footer p{
+    position: relative;
+    top:0px;
+    left: 10PX;
+    color: #8B2CF5;
+    font-weight: bold;
+    
+  
+}
+footer h6{
+    position: relative;
+    left: 78px;
+    width: 200PX;
+    padding: 1OPX;
+    margin: 10px auto;
+    text-align: center;
+     line-height: 60PX;
+     
+}
+.social img{
+    position: relative;
+    left: 10px;
+    
+
+}
+.footer img{
+    width: 43PX;
+}
+
